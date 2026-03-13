@@ -6,11 +6,11 @@
  *
  * Environment Variables:
  * - TENANT_ID: Kibo tenant identifier 
- * - SITE_ID: Kibo site identifier (default: "*****")
- * - MASTER_CATALOG: Master catalog ID (default: "*")
- * - CATALOG: Catalog ID (default: "*")
- * - CLIENT_ID: OAuth client ID (default: "*******")
- * - SHARED_SECRET: OAuth shared secret (default: "*********")
+ * - SITE_ID: Kibo site identifier 
+ * - MASTER_CATALOG: Master catalog ID 
+ * - CATALOG: Catalog ID 
+ * - CLIENT_ID: OAuth client ID 
+ * - SHARED_SECRET: OAuth shared secret 
  * - PCI_HOST: PCI Host (default: "pmts.mozu.com")
  * - AUTH_HOST: Auth Host (default: "home.mozu.com")
  * - API_ENV: API environment (default: "sandbox")

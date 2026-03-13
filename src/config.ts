@@ -38,19 +38,19 @@ const userCustomMiddleware = new UserMiddleware();
  * @type {Configuration}
  */
 export const configuration = new Configuration({
-  tenantId: process.env.KIBO_TENANT || process.env.TENANT_ID || "<< to do>>",
-  siteId: process.env.KIBO_SITE || process.env.SITE_ID || "**<<to do>>",
+  tenantId: process.env.KIBO_TENANT || process.env.TENANT_ID || "<< your default value>>",
+  siteId: process.env.KIBO_SITE || process.env.SITE_ID || "<< your default value>>",
   masterCatalog:
-    process.env.KIBO_MASTER_CATALOG || process.env.MASTER_CATALOG || "***<<to do>>",
-  catalog: process.env.KIBO_CATALOG || process.env.CATALOG || "**<<to do>>",
+    process.env.KIBO_MASTER_CATALOG || process.env.MASTER_CATALOG || "<< your default value>>",
+  catalog: process.env.KIBO_CATALOG || process.env.CATALOG || "<<your default value>>",
   clientId:
     process.env.KIBO_CLIENT_ID ||
     process.env.CLIENT_ID ||
-    "***<<to do>>",
+    "<< your default value>>",
   sharedSecret:
     process.env.KIBO_SHARED_SECRET ||
     process.env.SHARED_SECRET ||
-    "***<<to do>>",
+    "<< your default value>>",
   pciHost:
     process.env.KIBO_PCI_HOST ||
     process.env.PCI_HOST ||
